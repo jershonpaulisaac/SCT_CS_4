@@ -1,15 +1,15 @@
-#Python Keylogger
+# Python Keylogger
 
 Author: Jershon Paul Isaac R
 Internship Task: Task – SkillCraft Technology Internship (Cybersecurity)
 
-##Overview
+## Overview
 
 This Python project is a lightweight Keylogger that records keystrokes into a log file for monitoring and research purposes. It demonstrates how keystroke capture works using the pynput library. Special keys like space and enter are handled properly, while modifier keys (Shift, Ctrl) are ignored for clean output.
 
 It is designed purely for educational and cybersecurity research to understand keystroke logging mechanisms.
 
-##Features
+## Features
 
 Keystroke Logging: Captures all typed characters.
 
@@ -21,7 +21,7 @@ Automatic Log File: Saves keystrokes in log.txt.
 
 Lightweight & Simple: Uses only pynput.
 
-##Installation
+## Installation
 
 Clone the repository:
 ```
@@ -55,7 +55,7 @@ Will produce in log.txt:
 Hello World
 This is a test123
 ```
-##How It Works
+## How It Works
 
 Keyboard Listener: Uses pynput.Listener to capture keypress events.
 
@@ -65,7 +65,7 @@ Filtering: Skips Shift and Ctrl keys to avoid clutter.
 
 Logging: Appends captured keystrokes into log.txt.
 
-##License
+## License
 
 © 2025 Jershon Paul Isaac R. All rights reserved.
 
